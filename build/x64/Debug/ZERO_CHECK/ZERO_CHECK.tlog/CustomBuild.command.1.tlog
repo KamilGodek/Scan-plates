@@ -1,0 +1,10 @@
+^E:\PROGRAMOWANIE\SCANPLATES\BUILD\CMAKEFILES\F3AB868A63A520DF93796381D3DBD470\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Cmake\bin\cmake.exe" -SE:/Programowanie/ScanPlates -BE:/Programowanie/ScanPlates/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Programowanie/ScanPlates/build/scanplates.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

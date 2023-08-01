@@ -1,0 +1,4 @@
+E:/Programowanie/ScanPlates/build/CMakeFiles/scanplates.dir
+E:/Programowanie/ScanPlates/build/CMakeFiles/PACKAGE.dir
+E:/Programowanie/ScanPlates/build/CMakeFiles/ALL_BUILD.dir
+E:/Programowanie/ScanPlates/build/CMakeFiles/ZERO_CHECK.dir
